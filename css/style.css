@@ -244,6 +244,12 @@ textarea {
     gap: 32px;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 .nav-link {
     font-size: 0.875rem;
     font-weight: 500;
@@ -1764,16 +1770,8 @@ html[dir="rtl"] body {
     text-align: right;
 }
 
-html[dir="rtl"] .nav-logo {
-    flex-direction: row-reverse;
-}
-
 html[dir="rtl"] .logo-text {
     align-items: flex-end;
-}
-
-html[dir="rtl"] .nav-actions {
-    flex-direction: row-reverse;
 }
 
 html[dir="rtl"] .about-card {
